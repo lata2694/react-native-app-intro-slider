@@ -335,8 +335,8 @@ const styles = StyleSheet.create({
     height: 16,
     margin: 16,
     flexDirection: isAndroidRTL ? 'row-reverse' : 'row',
-    justifyContent: 'center',
-    alignItems: 'center',
+    justifyContent: 'flex-start',
+    alignItems: 'flex-start',
   },
   dot: {
     width: 10,
